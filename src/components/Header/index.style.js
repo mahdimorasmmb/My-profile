@@ -13,7 +13,7 @@ export const StyledHeader = styled.div`
 export const Logo = styled.div`
   display: flex;
   font-size: 36px;
-  color: blueviolet;
+  color: #9e60dd;
   font-weight: 800;
 
   @media only screen and (max-width: 720px) {

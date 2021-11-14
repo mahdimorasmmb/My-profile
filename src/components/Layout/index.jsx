@@ -1,7 +1,8 @@
 import React from "react";
-import { Body } from "./Body";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Body } from "../Body";
+import { Header } from "../Header";
+import { Footer } from "../Footer";
+
 import { StyledLayout } from "./index.styled";
 
 export const Layout = ({ children }) => {

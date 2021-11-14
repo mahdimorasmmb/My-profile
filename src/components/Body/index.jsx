@@ -1,5 +1,6 @@
 import React from "react";
 import { About } from "./About";
+import { Contact } from "./Contact";
 import { StyledBody } from "./index.styled";
 import { Projects } from "./Projects";
 import { Skills } from "./Skills";
@@ -19,6 +20,9 @@ export const Body = () => {
       </section>
       <section id="work">
         <Work />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </StyledBody>
   );

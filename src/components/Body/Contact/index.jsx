@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Projects = () => {
+export const Contact = () => {
   return (
     <div>
-      <h1>Project</h1>
+      <h1>Content</h1>
     </div>
   );
 };

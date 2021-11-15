@@ -10,6 +10,7 @@ export const StyledMobile = styled.div`
   padding: 18px 12px;
   display: flex;
   flex-direction: column;
+  opacity: 80%;
 
   .close-icon {
     display: flex;
@@ -37,6 +38,9 @@ export const StyledMobile = styled.div`
       text-decoration: none;
       color: black;
       display: flex;
+      &:hover {
+        color: #9e60dd;
+      }
     }
   }
 `;

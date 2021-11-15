@@ -18,6 +18,9 @@ export const StyledWeb = styled.div`
       color: black;
       display: flex;
       align-items: center;
+      &:hover {
+        color: #9e60dd;
+      }
 
       i {
         display: flex;

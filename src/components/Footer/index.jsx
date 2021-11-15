@@ -1,9 +1,6 @@
 import React from "react";
+import { StyledFooter } from "./index.styled";
 
 export const Footer = () => {
-  return (
-    <div>
-      <h1>This is Footer</h1>
-    </div>
-  );
+  return <StyledFooter>Mahdi moras</StyledFooter>;
 };

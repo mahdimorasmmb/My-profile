@@ -7,7 +7,7 @@ export const ProjectData = [
     tags: ["ReactJs", "NodeJs", "TailwindCss", "Antde", "Mui"],
     demo: "https://mmb-movies.ir",
     github: "https://github.com/mahdimorasmmb/mmb-movies",
-    image: "./images/mmb-movies",
+    image: "./images/mmb-movies.jpeg",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const ProjectData = [
     demo: "#",
     github:
       "https://github.com/mahdimorasmmb/my-todo-app/tree/master/my-todo-app",
-    image: "./images/todo-app",
+    image: "./images/todo-app.jpeg",
   },
   {
     id: 3,
@@ -28,6 +28,6 @@ export const ProjectData = [
     tags: ["ReactJs", "NextJs", "Mui"],
     demo: "#",
     github: "https://github.com/mahdimorasmmb/My-shop",
-    image: "./images/my-shop",
+    image: "./images/my-shop.jpeg",
   },
 ];

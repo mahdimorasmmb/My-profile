@@ -3,8 +3,8 @@ import { StyledMobile } from "./index.styled";
 
 export const Mobile = ({ isOpen, setIsOpen }) => {
   return (
-    <StyledMobile>
-      <div className="close-icon" onClick={() => setIsOpen((prev) => !prev)}>
+    <StyledMobile onClick={() => setIsOpen((prev) => !prev)}>
+      <div className="close-icon">
         <i className="fi-rr-cross-circle"></i>
       </div>
       <div className="mobile-options">
